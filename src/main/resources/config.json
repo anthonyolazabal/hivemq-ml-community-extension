@@ -1,0 +1,14 @@
+{ "routes":[
+  {
+    "topic": "test/quality",
+    "inferenceUri": "http://localhost:3000/predict",
+    "endpointAuth" : false,
+    "destinationTopic": "test/prediction"
+  },
+  {
+    "topic": "test2/quality",
+    "inferenceUri": "http://localhost:3000/predict",
+    "endpointAuth" : false,
+    "destinationTopic": "test2/prediction"
+  }
+]}

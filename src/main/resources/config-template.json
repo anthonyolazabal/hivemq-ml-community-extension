@@ -1,0 +1,8 @@
+{ "routes":[
+  {
+    "topic": "INPUT_TOPIC",
+    "inferenceUri": "http://localhost:3000/predict",
+    "endpointAuth" : false,
+    "destinationTopic": "OUTPUT_TOPIC"
+  }
+]}
